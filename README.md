@@ -21,6 +21,11 @@
 - Adição de evento hover no botão cadastrar, com mudança do background do campo e da fonte.
 </p>
 
+# Quer Clonar o respositório?
+
+https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository
+
+
 <h1>🎨 Layout da Página</h1>
   <p>
     Aqui temos a nossa página Inicial do projeto, estando do lado esquerdo uma imagem que alude a ideia de validação, projetos e do lado direito os campos do nosso formulário. Neste lado, busquei dar uma aparência diferente daquela proposta no curso. Para isso, apliquei "background-color: #FFFF00;", um "font-family: -apple-system;", e um "color:#A020F0;" para as fontes.
