@@ -2,17 +2,17 @@
 
 # ✔️📋 Validador de Formulários V. 1.1
 
-# Algumas atualizações no código
-
-<p>
-* Adição de placeholder nos campos "input" do formulário, que mostram ao usuário o que deve ser digitado em cada campo; 
-</p>
-
 <p>
   Projeto feito junto ao professor Bonieky do curso B7web, com o intuito
   de criar um validador de formulários. Para isso, utilizamos HTML5, CSS3
   e Javascript para solucionarmos esse problema tão comum em situações de
   cadastro em sites da web.
+</p>
+
+# Algumas atualizações no código
+
+<p>
+* Adição de placeholder nos campos "input" do formulário, que mostram ao usuário o que deve ser digitado em cada campo; 
 </p>
 
 <h1>🎨 Layout da Página</h1>
