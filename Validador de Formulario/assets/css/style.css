@@ -57,3 +57,18 @@ body {
   padding: 4px;
   border-radius: 5px;
 }
+
+@media (max-width: 600px) {
+  .leftside img {
+    display: none;
+  }
+
+  .right-side input {
+    flex-direction: column;
+  }
+
+  .right-side input  h1 {
+    align-items: center;
+  }
+
+}
