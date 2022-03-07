@@ -31,5 +31,5 @@
 <p>
   Nesta imagem temos um possível cenário, em que um usuário pode digitar todos os campos de forma errônea, levando o formulário a exibir as mensagens de erro para cada campo. Para isso, foram criadas funções específicas para a verificação de cada campo.
 </p>
-<img src="Validador de Formulario/layouts/erros-de-usuario.png" alt="" height= "50%" width="50%">
+<img src="Validador de Formulario/layouts/erros_de_usuario.png" alt="" height= "50%" width="50%">
 
