@@ -6,7 +6,8 @@
   Projeto feito junto ao professor Bonieky do curso B7web, com o intuito
   de criar um validador de formulários. Para isso, utilizamos HTML5, CSS3
   e Javascript para solucionarmos esse problema tão comum em situações de
-  cadastro em sites da web.
+  cadastro em sites da web. Vale ressaltar ainda, que para fazer o processo
+  de validação no projeto, foram usadas expressões regulares na função de checkagem dos campos do formulário.
 </p>
 
 # Algumas atualizações no código
