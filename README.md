@@ -12,7 +12,7 @@
 # Algumas atualizações no código
 
 <p>
-- Adição de placeholder nos campos "input" do formulário, que mostram ao usuário o que deve ser digitado em cada campo;
+- Adição de placeholder nos campos "input" do formulário, que mostram ao usuário o que deve ser digitado em cada campo;<br>
 - Aplicação de Responsividade, adptando-o para diversos dispositivos;
 </p>
 
