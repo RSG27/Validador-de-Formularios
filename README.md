@@ -22,7 +22,7 @@
 
 <h1>🎨 Layout da Página</h1>
   <p>
-    Aqui temos a nossa página Inicial do projeto, estando do lado esquerdo uma imagem que alude a ideia de validação, projetos e do lado direito os campos do nosso formulário. Neste lado, busquei dar uma aparência diferente daquela proposta no curso. Para isso, apliquei "background-color: #7B68EE;", um "font-family: -apple-system;", e um "color:whitesmoke;" para as fontes.
+    Aqui temos a nossa página Inicial do projeto, estando do lado esquerdo uma imagem que alude a ideia de validação, projetos e do lado direito os campos do nosso formulário. Neste lado, busquei dar uma aparência diferente daquela proposta no curso. Para isso, apliquei "background-color: #FFFF00;", um "font-family: -apple-system;", e um "color:#A020F0;" para as fontes.
   </p>
 <img src="Validador de Formulario/layouts/layout_pagina.png" alt="layout da pagina" height= "50%" width="50%">
 
