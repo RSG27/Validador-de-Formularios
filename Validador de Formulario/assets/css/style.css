@@ -58,6 +58,13 @@ body {
   outline: 0;
 }
 
+input[type=submit]:hover {
+  cursor: pointer;
+  background-color: #A020F0;
+  color: #FFFF;
+}
+
+
 .footer,
 .footer a {
   color: #A020F0;

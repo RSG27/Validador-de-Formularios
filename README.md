@@ -17,7 +17,8 @@
 - Aplicação de Responsividade, adptando-o para diversos dispositivos;<br>
 - Mudança no Background do lado direito da página;<br>
 - Adição da propriedade autofocus que deixa o ponteiro ativo no campo solicitado pelo usuário;<br>
-- Troca de Cores do lado esquerdo do site com um nova cor para o background, para o título e o rodapé do formulário.
+- Troca de Cores do lado esquerdo do site com um nova cor para o background, para o título e o rodapé do formulário.<br>
+- Adição de evento hover no botão cadastrar, com mudança do background do campo e da fonte.
 </p>
 
 <h1>🎨 Layout da Página</h1>
