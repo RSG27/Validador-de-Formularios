@@ -1,6 +1,6 @@
 ## 🚧🚧🚧 Readme Em Construção!!!
 
-# ✔️📋 Validador de Formulários V. 1.1
+# ✔️📋 Validador de Formulários V. 1.2
 
 <p>
   Projeto feito junto ao professor Bonieky do curso B7web, com o intuito
@@ -14,7 +14,10 @@
 
 <p>
 - Adição de placeholder nos campos "input" do formulário, que mostram ao usuário o que deve ser digitado em cada campo;<br>
-- Aplicação de Responsividade, adptando-o para diversos dispositivos;
+- Aplicação de Responsividade, adptando-o para diversos dispositivos;<br>
+- Mudança no Background do lado direito da página;<br>
+- Adição da propriedade autofocus que deixa o ponteiro ativo no canto solicitado pelo usuário;
+- Troca de Cores do lado esquerdo do site com um nova cor para o background, para o título e o rodapé do formulário<br>
 </p>
 
 <h1>🎨 Layout da Página</h1>

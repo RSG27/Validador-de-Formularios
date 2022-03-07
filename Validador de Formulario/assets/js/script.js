@@ -1,18 +1,18 @@
-let RSGvalidator = {
+let B7validator = {
   handleSubmit:(event) => {
     event.preventDefault();
     let send = true;
 
     let inputs = form.querySelectorAll('input');
 
-    RSGvalidator.clearErrors();
+    B7validator.clearErrors();
 
     for(let i=0;i<inputs.length;i++) {
       let input = inputs[i];
-      let check = RSGvalidator.checkInput(input);
+      let check = B7validator.checkInput(input);
       if(check !== true) {
         send = false;
-        RSGvalidator.showError(input, check);
+        B7validator.showError(input, check);
       }
     }
 
@@ -35,13 +35,14 @@ let RSGvalidator = {
             break;
             case 'min':
               if(input.value.length < rDetails[1]){
-                  return 'Campo tem que ter pelo menos ' + rDetails[1] + ' caracteres';
+                  return 'Campo tem que ter pelo menos '+rDetails[1]+ ' caracteres';
               }
             break;
             // expressões regulares
             case 'email':
               if(input.value != '') {
                   let regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
                   if(!regex.test(input.value.toLowerCase())) {
                     return 'E-mail inválido!';
                   }
@@ -78,5 +79,5 @@ let RSGvalidator = {
   
 };
 
-let form = document.querySelector('.rsgvalidator');
-form.addEventListener('submit', RSGvalidator.handleSubmit);
+let form = document.querySelector('.b7validator');
+form.addEventListener('submit', B7validator.handleSubmit);

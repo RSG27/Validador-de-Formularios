@@ -10,31 +10,40 @@
 <body>
   <div class="screen">
       <div class="leftside">
-        <img src="assets/images/financial_data.png" alt="financial_data">
+        <img src="assets/images/form_validator.jpg" alt="form_validator">
       </div>
       <div class="rightside">
-          <h1 class="text">Login</h1>
-
-            <form method="POST" action="cadastro.php" class="rsgvalidator" >
+          <h1 class="text">Crie sua Conta</h1>
+            <form method="POST" action="cadastro.php" class="b7validator" >
                 <label>
                   <input type="text" name="name" data-rules="required|min=2" placeholder="Nome" autofocus/>
                 </label>
+                <br>
                 <label>
                   <input type="text" name="email" data-rules="required|email" placeholder="Email" autofocus/>
                 </label>
+                <br>
                 <label>
                   <input type="password" name="password" data-rules="required|min=4" placeholder="Senha" autofocus/>
                 </label>
+                <br>
+                <label>
+                  <input type="password" name="password" data-rules="required|min=4" placeholder="Confirmar Senha" autofocus/>
+                </label>
+                <br>
                 <label>
                   <input type="submit" value="Entrar"/>
                 </label>
             </form>
             <div class="text">
-              <p>Não tem uma conta? <a href="">Faça o cadastro</a></p>
+              <p>Já tem uma conta? <a href="">Faça o login</a></p>
+            </div>
+            <div class="footer">
+              Criado por<a class="linkedin" target="blank" href="https://www.linkedin.com/in/ruan-silva-gaspar-a13a89226/">Ruan S. Gaspar </a>
             </div>
       </div>
   </div>
 
-  <script src="script.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
