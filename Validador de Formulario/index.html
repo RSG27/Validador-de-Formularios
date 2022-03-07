@@ -13,24 +13,24 @@
         <img src="assets/images/financial_data.png" alt="financial_data">
       </div>
       <div class="rightside">
-          <h1 class="text">Crie uma Conta</h1>
+          <h1 class="text">Login</h1>
 
-            <form method="POST" action="cadastro.php" class="rsgvalidator" autofocus>
+            <form method="POST" action="cadastro.php" class="rsgvalidator" >
                 <label>
-                  <input type="text" name="name" data-rules="required|min=2" placeholder="Nome"/>
+                  <input type="text" name="name" data-rules="required|min=2" placeholder="Nome" autofocus/>
                 </label>
                 <label>
-                  <input type="text" name="email" data-rules="required|email" placeholder="Email"/>
+                  <input type="text" name="email" data-rules="required|email" placeholder="Email" autofocus/>
                 </label>
                 <label>
-                  <input type="password" name="password" data-rules="required|min=4" placeholder="Senha"/>
+                  <input type="password" name="password" data-rules="required|min=4" placeholder="Senha" autofocus/>
                 </label>
                 <label>
-                  <input type="submit" value="Cadastrar"/>
+                  <input type="submit" value="Entrar"/>
                 </label>
             </form>
             <div class="text">
-              Já tem uma conta? <a href="">Faça o login</a>
+              <p>Não tem uma conta? <a href="">Faça o cadastro</a></p>
             </div>
       </div>
   </div>
