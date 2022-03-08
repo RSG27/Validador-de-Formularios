@@ -1,3 +1,4 @@
+/* Estilização do site inteiro */
 * {
   box-sizing: border-box;
 }
@@ -6,12 +7,15 @@ body {
   margin: 0;
 }
 
+/* Estilização do lado direito do site */
 .text {
   color: #A020F0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
 }
 
 .text a {
+  text-align: center;
   text-decoration: none;
   font-weight: bold;
   color: #A020F0;
@@ -20,18 +24,6 @@ body {
 .screen {
   display: flex;
   height: 100vh;
-}
-
-.leftside {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.leftside img {
-  max-width: 500px;
-  height: auto;
 }
 
 .rightside {
@@ -58,13 +50,32 @@ body {
   outline: 0;
 }
 
+ /* 
+ Adição de Eventos em Botões
+ https://www.blogson.com.br/como-criar-efeito-hover-no-botao/ 
+ */
 input[type=submit]:hover {
   cursor: pointer;
   background-color: #A020F0;
   color: #FFFF;
+  transform: scale(1.1);
+  transition: all 0.5s;
 }
 
+/* Estilização do lado esquerdo do site */
+.leftside {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.leftside img {
+  max-width: 500px;
+  height: auto;
+}
+
+/* Estilização do Rodapé do site */
 .footer,
 .footer a {
   color: #A020F0;
@@ -85,50 +96,45 @@ input[type=submit]:hover {
   border-radius: 5px;
 }
 
-@media(max-width: 600px) {
+/* 
+  Aplicação da Responsividade
+  inspirado em Ana da Silva:
+  https://github.com/anadasilva87/verificadorCadastro 
+*/
+
+@media(max-width: 1024px) {
   .text {
     text-align: center;
   }
 
-  .text a {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+  .leftside {
+    width: 290px;
   }
 
   .leftside img {
-    display: none;
+    width: 290px;
   }
 
   .rightside {
-    height: 100vh;
-    width: 100vh;
-  }
-
-  .right-side input {
-    flex-direction: column;
-  }
-
-  .right-side input  h1 {
+    display: block;
     align-items: center;
+    margin-bottom: 20px;
+    height: 125vh;  
+  }  
+
+  .right-side label {
+    margin-bottom: 35px;
   }
 }
 
-@media(min-width: 768px) {
-  .text {
-    text-align: center;
-  }
-  
-  .text a {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .right-side input,
-  .leftside {
-    width: 400px;
-  }
+@media(max-width: 750px){
+    .leftside{
+        display: none;
+    }
+    .rightside{
+        height: 125vh;
+        width: 125vh;
+    }   
 }
 
 
