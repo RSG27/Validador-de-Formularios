@@ -13,12 +13,14 @@
 # Algumas atualizações no código
 
 <p>
-- Adição de placeholder nos campos "input" do formulário, que mostram ao usuário o que deve ser digitado em cada campo;<br>
-- Aplicação de Responsividade, adptando-o para diversos dispositivos;<br>
-- Mudança no Background do lado direito da página;<br>
-- Adição da propriedade autofocus que deixa o ponteiro ativo no campo solicitado pelo usuário;<br>
-- Troca de Cores do lado esquerdo do site com um nova cor para o background, para o título e o rodapé do formulário.<br>
-- Adição de evento hover no botão cadastrar, com mudança do background do campo e da fonte.
+- Adição de placeholder nos campos "input" do formulário, que mostram ao usuário o que deve ser digitado em cada campo;<br><br>
+- Aplicação de responsividade, adptando-o para diversos dispositivos;<br><br>
+- Mudança no Background do lado direito da página;<br><br>
+- Adição da propriedade autofocus que deixa o ponteiro ativo no campo solicitado pelo usuário;<br><br>
+- Troca de Cores do lado esquerdo do site com um nova cor para o background, para o título e o rodapé do formulário.<br><br>
+- Adição de evento hover no botão cadastrar, com mudança do background do campo e da fonte.<br><br>
+- Ajustamento da responsividade;<br>
+- Adição de evento de animação no botão cadastrar.  
 </p>
 
 # Quer Clonar o respositório?
