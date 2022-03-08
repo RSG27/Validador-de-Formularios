@@ -19,7 +19,7 @@
 - Adição da propriedade autofocus que deixa o ponteiro ativo no campo solicitado pelo usuário;<br><br>
 - Troca de Cores do lado esquerdo do site com um nova cor para o background, para o título e o rodapé do formulário.<br><br>
 - Adição de evento hover no botão cadastrar, com mudança do background do campo e da fonte.<br><br>
-- Ajustamento da responsividade;<br>
+- Ajustamento da responsividade;<br><br>
 - Adição de evento de animação no botão cadastrar.  
 </p>
 
