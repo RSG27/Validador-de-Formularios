@@ -10,7 +10,7 @@
   de validação no projeto, foram usadas expressões regulares na função de checkagem do campo email do formulário.
 </p>
 
-# Algumas atualizações no código
+# Atualizações no código
 
 <p>
 - Adição de placeholder nos campos "input" do formulário, que mostram ao usuário o que deve ser digitado em cada campo;<br><br>
@@ -21,7 +21,8 @@
 - Adição de evento hover no botão cadastrar, com mudança do background do campo e da fonte.<br><br>
 - Ajustamento da responsividade;<br><br>
 - Adição de evento de animação no botão cadastrar.<br><br>
-- Adição das Tags Semânticas: main, section e footer; 
+- Adição das Tags Semânticas: main, section e footer;<br><br> 
+- Adição de icon no title do site.
 </p>
 
 # Quer Clonar o respositório?
