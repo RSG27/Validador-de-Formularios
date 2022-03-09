@@ -76,15 +76,15 @@ input[type=submit]:hover {
 }
 
 /* Estilização do Rodapé do site */
-.footer,
-.footer a {
+footer,
+footer a {
   color: #A020F0;
   padding: 5px;
   text-align: center;
   text-decoration: none;
 }
 
-.footer a {
+footer a {
   font-weight: bold;
 }
 

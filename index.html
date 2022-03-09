@@ -8,44 +8,46 @@
   <title>Validador de Formulários</title>
 </head>
 <body>
-  <div class="screen">
+  <section>
+    <main class="screen">
       <!-- Background do lado esquerdo -->
       <div class="leftside">
         <img src="assets/images/form_validator.jpg" alt="form_validator">
       </div>
       <!-- Background e formulário do lado direito -->
       <div class="rightside">
-          <h1 class="text">Crie sua Conta</h1>
-            <form method="POST" action="cadastro.php" class="b7validator" >
-                <label>
-                  <input type="text" name="name" data-rules="required|min=2" placeholder="Nome" autofocus/>
-                </label>
-                <br>
-                <label>
-                  <input type="text" name="email" data-rules="required|email" placeholder="Email" autofocus/>
-                </label>
-                <br>
-                <label>
-                  <input type="password" name="password" data-rules="required|min=4" placeholder="Senha" autofocus/>
-                </label>
-                <br>
-                <label>
-                  <input type="password" name="password" data-rules="required|min=4" placeholder="Confirmar Senha" autofocus/>
-                </label>
-                <br>
-                <label>
-                  <input type="submit" value="Cadastrar"/>
-                </label>
+        <h1 class="text">Crie sua Conta</h1>
+          <form method="POST" action="cadastro.php" class="b7validator" >
+              <label>
+                <input type="text" name="name" data-rules="required|min=2" placeholder="Nome" autofocus/>
+              </label>
+              <br>
+              <label>
+                <input type="text" name="email" data-rules="required|email" placeholder="Email" autofocus/>
+              </label>
+              <br>
+              <label>
+                <input type="password" name="password" data-rules="required|min=4" placeholder="Senha" autofocus/>
+              </label>
+              <br>
+              <label>
+                <input type="password" name="password" data-rules="required|min=4" placeholder="Confirmar Senha" autofocus/>
+              </label>
+              <br>
+              <label>
+                <input type="submit" value="Cadastrar"/>
+              </label>
+              <!-- Rodapé do lado direito -->
+              <footer>
+                <div class="text">
+                  <p>Já tem uma conta? <a href="">Faça o login</a></p>
+                  <p></p> por<a target="blank" href="https://www.linkedin.com/in/ruan-silva-gaspar-a13a89226/">Ruan S. Gaspar </a>
+                </div>
+              </footer>
             </form>
-            <div class="text">
-              <p>Já tem uma conta? <a href="">Faça o login</a></p>
-            </div>
-            <!-- Rodapé do lado direito -->
-            <div class="footer">
-              Criado por<a target="blank" href="https://www.linkedin.com/in/ruan-silva-gaspar-a13a89226/">Ruan S. Gaspar </a>
-            </div>
       </div>
-  </div>
+    </main>
+  </section>
   <!-- Referência ao código javascript externo -->
   <script src="assets/js/script.js"></script>
 </body>
